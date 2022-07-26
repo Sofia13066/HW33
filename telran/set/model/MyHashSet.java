@@ -53,6 +53,8 @@ public class MyHashSet<E> implements ISet<E> {
 		};
 	}
 
+
+
 	@Override
 	public boolean add(E element) {
 		if (size >= capacity * loadFactor) {
