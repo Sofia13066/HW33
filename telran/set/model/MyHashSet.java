@@ -41,7 +41,7 @@ public class MyHashSet<E> implements ISet<E> {
     
 			@Override
 			public E next() {
-				valueCounter++;
+				// valueCounter++;
                 while (index == hashset[valueCounter].size() || hashset[valueCounter] == null) {
 					index = 0;
 					valueCounter++;
